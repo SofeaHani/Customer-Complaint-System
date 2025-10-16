@@ -6,18 +6,23 @@ What is it?
 <br>
 It is a web-based Customer Complaint System a web based customer complaint system that can help customers easily submit their complaints regarding products or services where customers can raise issues, track the progress of their complaints, and receive timely updates from the system.
 
+Basic Implementation
+* jQuery plugins - [Datepicker] improve the user experience by simplifying date selection in forms
+* Ajax call - Retrieve data from the MySQL database, allowing dynamic content such as dropdown lists or div elements to update without reloading the entire page 
+* 1-minute timer interval - Refresh the listing page
+
 Programming Language & Tools
 <br>
-Language : 
+Programming Languages : 
 * HTML
 * CSS
 * Javascript
 * PHP
 
 Tools & Framework : 
-* Bootstrap
-* JQuery
-* PhpMyAdmin
+* Bootstrap - CSS Framework
+* JQuery (Framework & Library) - Base styles for jQuery UI components (Datepicker) & Simplifying AJAX calls
+* PhpMyAdmin - Local server environment and database management tool.
 
 Results
 * Administrators - Allowing administrators to easily manage and update complaints.Administrators could see the latest complaint status without manually refreshing, which saved time and reduced delays.
